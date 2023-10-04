@@ -46,6 +46,7 @@ public class Operators {
         if (!condition1) {
             System.out.println("Conditia este adevarata");
         } else System.out.println("Conditia nu este adevarata");
+        //
     }
 }
 
