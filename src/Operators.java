@@ -46,7 +46,16 @@ public class Operators {
         if (!condition1) {
             System.out.println("Conditia este adevarata");
         } else System.out.println("Conditia nu este adevarata");
-        //
+        //Excercitiul 1 - 18.10.2023//
+        int a = 5;
+        int b = 10;
+        int c = 15;
+        int d = 20;
+        int sum4 = 100 + 50;
+        int sum5 = sum1 + 50;
+        System.out.println(sum1);
+        System.out.println(sum2);
+
     }
 }
 
