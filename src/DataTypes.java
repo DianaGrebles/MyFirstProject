@@ -1,38 +1,42 @@
 public class DataTypes {
     public static void main(String[] args) {
-        boolean myBoolean=true;
-        System.out.println(myBoolean);
-        char myChar = 'a';
-        System.out.println(myChar);
+        int g=3;
+        System.out.println(g);
+        boolean Boolean=false;
+        System.out.println(Boolean);
+        char Char = 'd';
+        System.out.println(Char);
         byte myByte = 0;
         System.out.println(myByte);
         short myShort = 3560;
         System.out.println(myShort);
-
         long myLong = 2861007226711L;
         System.out.println(myLong);
-        float myFloat = 5.5f+8.5f;
-        System.out.println(myFloat);
+        float Float = 5.5f+8.5f;
+        System.out.println(Float);
         double myDouble = 7.6969;
         System.out.println(myDouble);
-        /*
-        nu am declarat int, please check!
+
 
 int x = 5;
         double y = 7.5;
         System.out.println(x+y);
 
-        int x = 5;
-        double y = x;
-        System.out.println(y);
+        int a = 5;
+        double s = a;
+        System.out.println(s);
+        //Atentie cum se afiseaza mai sus,la double se afiseaza cu .0
 
-         */
-        int x = 5;
-        double y = x;
+
+        int p = 5;
+       double r = p;
         double z = 5.5;
         int w = (int)z;
-        System.out.println(y);
+        System.out.println(r);
         System.out.println(w);
+
+        //Exerctii
+        //1
         int myNum = 9;
 
 float myFloatNum = 8.99f;
@@ -46,27 +50,40 @@ String myText = "Hello World";
 String myOtherText = "1a2b3c";
 
 
+//2a
+        byte myByteDiana = 13;
+        int intDiana = myByteDiana;
+        System.out.println(intDiana);
 
-        byte myByte3 = 109;
-        int y2 = myByte3;
-        System.out.println(y2);
+        //2b
 
-        float myFloatNum2 = 1.13f;
-        int myint3 = (int) myFloatNum2;
-        System.out.println(myint3);
+        float myFloatDiana = 1.13f;
+        int myintDiana = (int) myFloatDiana;
+        System.out.println(myintDiana);
 
-        int MyNum =9;
-        float myFloatNum1 = 8.99f;
-        char myLetter1 = 'A';
-        boolean myBool1 = false;
-       String myText1= "Hello World";
-        String rText = "1a2b3c";
-        System.out.println(myNum);
-        System.out.println(myFloatNum1);
-        System.out.println(myLetter1);
-        System.out.println(myBool1);
-        System.out.println(myText1);
-        System.out.println(myOtherText);
+
+
+        /*Exercitii optionale – Testare Automata
+        Tipuri de date
+        Remember:
+        In cazul in care aveti erori, verificati sintaxa – IDEA subliniaza cu rosu clasa si bucata de cod
+        eronata si va ofera cateva sugestii. De cele mai multe ori are dreptate .
+        Verificati parantezele (sa fie intotdeauna in pereche) si prezenta lui “”;” (punct si virgula) la
+        finalul fiecarui statement (linie de cod).
+                In cel mai rau caz, puteti sa comentati bucatile de cod cu erori pana la solutionarea lor,
+                pentru a nu opri de tot compilarea programului.
+                Si acum sa trecem la exercitii optionale.
+
+        Exercitiul 1 - in clasa DataTypes:
+        Declarati doua variabile de tip float cu valori la alegere.
+        Afisati suma lor.
+        Afisati diferenta dintre ele.
+        Afisati produsul dintre ele (produsul a doua numere se realizeaza cu ajutorul operatorului
+“*”)
+
+
+         */
+
         float myFloatNumX = 1.14f;
         float myFloatNumY = 1.15f;
         float myFloatNumZ = myFloatNumX+myFloatNumY;
@@ -75,8 +92,8 @@ String myOtherText = "1a2b3c";
         System.out.println(myFloatNumA);
         float myFloatNumB = myFloatNumX*myFloatNumY;
         System.out.println(myFloatNumB);
-
-
+        float myFloatNumC = myFloatNumX/myFloatNumY;
+        System.out.println(myFloatNumC);
 
 
 
